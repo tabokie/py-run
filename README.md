@@ -1,10 +1,10 @@
-# pythonInterpreter
+# py-run
 
 Lightweight Interpreter for python3 written in python3, run instructions on stack-based virtual machine in python.
 
 Currently supports `Weakly Typed variable`, `Function Call by Value`, `Basic Control`, `Basic Syscall`, `Block by Indent`.
 
-## Modules
+## Module
 
 * **Scanner**: using ply.lex, parsing strings to 21 basic tokens.
 
@@ -14,7 +14,7 @@ Currently supports `Weakly Typed variable`, `Function Call by Value`, `Basic Con
 
 * **Virtual Machine**: Implement instruction based on python3 environment, execute instruction with stack and frame stack.
 
-## Tests
+## Test
 
 * Case 1: 
 
